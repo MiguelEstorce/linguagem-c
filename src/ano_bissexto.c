@@ -8,14 +8,14 @@ int main(){
     system("clear");
     int n;
     printf("digite um ano e tecle enter\n");
-    scanf("&d", &n);
+    scanf("%d",&n);
     //se o valor digitado pelo o usuario dividido por 2 e
     //restar 0, então o valor é par
     if( n % 4 == 0 ){
-        printf("o ano &d que voce digitou é um ano bissexto \n",n);
+        printf("o ano %d que voce digitou é um ano bissexto \n",n);
     }
     else{
-        printf("o ano &d que voce digitou não é um ano bissexto \n");
+        printf("o ano %d que voce digitou não é um ano bissexto \n",n);
     }
     return 0;
 }
